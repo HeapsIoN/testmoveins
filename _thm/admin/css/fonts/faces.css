@@ -1,0 +1,29 @@
+/* CSS Document */
+
+@font-face {
+    font-family: "Icons";
+    src: 	url('faces/font-awesome-icons.woff') format('woff'),
+			url('faces/font-awesome-icons.woff2') format('woff2'),
+			url('faces/font-awesome-icons.eot') format('embedded-opentype'),			
+			url('faces/font-awesome-icons.svg') format('svg'),
+			url('faces/font-awesome-icons.ttf') format('ttf')			
+			;
+}
+
+@font-face {
+    font-family: "Ionicons";
+    src: 	url('faces/ionicons.woff') format('woff'),
+			url('faces/ionicons.eot') format('embedded-opentype'),			
+			url('faces/ionicons.svg') format('svg'),
+			url('faces/ionicons.ttf') format('ttf')			
+			;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), 
+  url('faces/open-sans.woff2') format('woff2');
+}
+

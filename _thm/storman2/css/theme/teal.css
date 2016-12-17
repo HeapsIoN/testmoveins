@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, legend {
+	color: #323232;
+}
+.navbar-default {
+	background-color: #1c91b6;
+	border-color: transparent;
+}
+.well {
+	background-color: #F1F1F1;
+}
+.panel-primary>.panel-heading {
+	background-color: #1c91b6;
+	border-color: #1c91b6;
+}
+.panel-primary {
+	border-color: #1c91b6;
+}
+a {
+	color: #1c91b6;
+}
+.breadcrumb>li.active a {
+	color: #1c91b6;
+	font-weight: bold;
+}
+.btn-primary {
+	color: #ffffff;
+	background-color: #1c91b6; 
+	border-color: #1c91b6;
+}
+.help-block {
+    color: #969696;
+}
+	
+	
+.form-control:focus {
+  border-color: #1c91b6;
+}

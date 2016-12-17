@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, legend {
+	color: #323232;
+}
+.navbar-default {
+	background-color: #F26520;
+	border-color: transparent;
+}
+.well {
+	background-color: #FEF7F1;
+}
+.panel-primary>.panel-heading {
+	background-color: #F26520;
+	border-color: #F26520;
+}
+.panel-primary {
+	border-color: #F26520;
+}
+a {
+	color: #F26520;
+}
+.breadcrumb>li.active a {
+	color: #F26520;
+	font-weight: bold;
+}
+.btn-primary {
+	color: #ffffff;
+	background-color: #F26520; 
+	border-color: #F26520;
+}
+.help-block {
+    color: #969696;
+}
+	
+	
+.form-control:focus {
+  border-color: #F26520;
+}
+
+
+.txt-7, .txt-7-hover:hover, .txt-7:focus, .txt-7-hover:focus
+	{
+	color:#f26520;	
+	}
+
+.bg-7, .bg-7-hover:hover
+	{
+	background-color:#f26520;	
+	}

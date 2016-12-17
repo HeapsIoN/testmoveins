@@ -1,0 +1,42 @@
+/* CSS Document */
+
+#signature, #signature-sec
+	{
+	position:relative;
+	display:block;
+	float:left;
+	background-color:#f8f8f8;
+	height:150px;
+	width:400px;
+	text-align:center;	
+	}
+
+#sign-pad, #sign-pad-sec
+	{
+	position: relative;
+	display:inline-block;
+	margin: 0 auto;
+	padding: 0;
+	width: 400px;
+	height:150px;
+	max-width:100%;
+	
+	cursor: url("../imgs/pen.cur"), crosshair;
+	cursor: url("../imgs/pen.cur") 16 16, crosshair;
+	
+	-ms-touch-action: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	}
+
+#sign-date
+	{
+	position:relative;
+	display:block;
+	float:left;
+	width:100%;
+	line-height:40px;
+	}

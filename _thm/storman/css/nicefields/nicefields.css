@@ -1,0 +1,562 @@
+/*!
+ ************************************************************
+ ************************************************************
+ *
+ * 	Nicefields v2.0 (http://lukepelgrave.com.au)
+ * 	Copyright 2011-2015 Luke Pelgrave.
+ * 	Licensed under MIT
+ *
+ ************************************************************
+ ************************************************************
+ *	The MIT License (MIT)
+ *	
+ *	Copyright (c) 2011-2015 Luke Pelgrave
+ *	
+ *	Permission is hereby granted, free of charge, to any person obtaining a copy
+ *	of this software and associated documentation files (the "Software"), to deal
+ *	in the Software without restriction, including without limitation the rights
+ * 	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ *	copies of the Software, and to permit persons to whom the Software is
+ *	furnished to do so, subject to the following conditions:
+ *	
+ *	The above copyright notice and this permission notice shall be included in
+ *	all copies or substantial portions of the Software.
+ *	
+ *	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ *	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ *	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ *	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ *	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ *	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ *	THE SOFTWARE.
+ ************************************************************
+ ************************************************************
+ */
+
+
+
+.nf-tgl-wrp
+	{
+	position:relative;
+	float:left;
+	display:block;
+	width:122px;
+	height:50px;
+	}
+
+.nf-tgl-fcs
+	{
+	-webkit-box-shadow:0 0 2px 0 #949494;
+	box-shadow:0 0 5px 0 #949494;
+	}
+
+.nf-tgl-val
+	{
+	opacity:0;
+	position:absolute;
+	top:0;
+	left:0;
+	height:0;
+	width:0;
+	border:none;
+	background-color:transparent;
+	}
+
+.nf-tgl
+	{
+	position:relative;
+	float:left;
+	display:block;
+	width:120px;
+	background-color:#0d6a93;
+	background: -webkit-linear-gradient(left, #d65e84, #d65e84, #0d6a93, #0d6a93);
+	background: -moz-linear-gradient(left, #d65e84, #d65e84, #0d6a93, #0d6a93);
+	background: -ms-linear-gradient(left, #d65e84, #d65e84, #0d6a93, #0d6a93);
+	background: -o-linear-gradient(left, #d65e84, #d65e84, #0d6a93, #0d6a93);
+	height:50px;
+	line-height:50px;
+	border:none;
+	margin:0;
+	padding:0;
+	}
+
+
+.nf-tgl:hover
+	{
+	cursor:pointer;
+	}
+
+.nf-tgl-off
+	{
+	}
+
+.nf-tgl-lbl
+	{
+	position:relative;
+	float:left;
+	display:block;
+	padding:0 10px;
+	width:80px;
+	margin:0;
+	background-color:#f8f8f8;
+	text-align:center;
+	}
+	
+.nf-tgl-swd
+	{
+	float:right;	
+	}
+
+	
+/* Nice Checkbox */
+
+.nf-chk
+	{
+	position:relative;
+	display:block;
+	float:left;
+	width:100%;
+	margin:0 0 0 0;
+	padding:0;
+	border:none;
+	background-color:transparent;
+	}
+
+.nf-chk:hover
+	{
+	cursor:pointer;	
+	}
+
+.nf-chk-fld
+	{
+	opacity:0;
+	position:absolute;
+	top:0;
+	left:0;
+	width:0;
+	height:0;
+	border:none;
+	background-color:transparent;
+	}
+
+.nf-chk-icn
+	{
+	position:relative;
+	float:left;
+	display:block;
+	width:18px;
+	height:18px;
+	margin:15px 5px 15px 0;
+	border:#ccc solid 1px;
+	background-color:#fff;
+	text-align:center;
+	line-height:18px;
+	font-size:0.95em;
+	}
+
+.nf-chk-sel:before
+	{
+	display: inline-block; 
+	font-family: "Ionicons"; 
+	speak: none; 
+	font-style: normal; 
+	font-weight: normal; 
+	font-variant: normal; 
+	text-transform: none; 
+	text-rendering: auto; 
+	-webkit-font-smoothing: antialiased; 
+	-moz-osx-font-smoothing: grayscale;
+	}
+
+.nf-chk-sel:before
+	{
+	content: "\f122";
+	}
+
+
+.nf-chk-lbl
+	{
+	position:relative;
+	float:left;
+	display:block;
+	width:auto;
+	padding:0 10px;
+	text-align:left;
+	line-height:50px;
+	max-width:calc(100% - 30px);	
+	}
+
+/* Nice Radio */
+
+.nf-rad
+	{
+	position:relative;
+	float:left;
+	display:block;
+	width:100%;
+	margin:0;
+	padding:0;
+	}
+
+.nf-rad-fld
+	{
+	opacity:0;
+	position:absolute;
+	top:0;
+	left:0;
+	width:0;
+	height:0;
+	border:none;
+	background-color:transparent;	
+	}
+
+.nf-rad-opt
+	{
+	position:relative;
+	float:left;
+	display:block;
+	margin:4px 0 0 0;
+	padding:0;	
+	border:none;
+	background-color:transparent;
+	}
+
+.nf-rad-opt:hover
+	{
+	cursor:pointer;
+	}
+
+.nf-rad-lbl
+	{
+	position:relative;
+	float:left;
+	display:block;
+	line-height:50px;
+	padding:0 10px;
+	}
+
+.nf-rad-box
+	{
+	position:relative;
+	float:left;
+	display:block;
+	margin:10px 5px;
+	padding:0;
+	height:28px;
+	width:28px;
+	border-radius:19px;	
+	-webkit-border-radius:19px;	
+	-moz-border-radius:19px;
+	border:#ccc solid 1px;
+	background-color:#fff;
+	}
+
+.nf-rad-sel
+	{
+	position:relative;
+	float:left;
+	display:block;
+	width:18px;
+	height:18px;
+	margin:4px;
+	border-radius:10px;	
+	-webkit-border-radius:10px;	
+	-moz-border-radius:10px;
+	background-color:#337ab7;
+	}
+
+.nf-hgl .nf-rad-sel
+	{
+	background-color:#72c52e;
+	}
+
+.nf-hgl .nf-rad-box
+	{
+	-webkit-box-shadow:0 0 2px 0 #949494;
+	box-shadow:0 0 5px 0 #949494;
+	}
+
+/* Nice Select */
+
+.nf-sel
+	{
+	position:relative;
+	float:left;
+	display:inline-block;
+	width:100%;
+	margin:0 5px 0 0;
+	padding:0;
+	max-width:270px;
+	height:50px;
+	background-color:transparent;
+	text-align:left;
+	z-index:100;
+	}
+
+.nf-sel:hover
+	{
+	cursor:pointer;
+	}
+
+.nf-sel-val
+	{
+	position:absolute;
+	width:0;
+	height:0;
+	opacity:0;
+	border:none;
+	background-color:transparent;
+	display:inline-block;
+	z-index:1000;
+	}
+
+.nf-sel-cur
+	{
+	position:static;
+	display:inline-block;
+	width:100%;
+	min-width:150px;
+	margin:0;
+	padding:0 30px 0 10px;
+	height:50px;
+	line-height:50px;
+	background-color:#fff;
+	border:#e4e4e4 solid 1px;
+	text-align:left;
+	z-index:100;
+	}
+/*
+
+This is a CSS arrow. Use this if you don't plan on using an icon in the actual sel template
+
+.nf-sel-arw
+	{
+	position:absolute;
+	top:10px;
+	right:10px;
+	width:0; 
+	height:0; 
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 8px solid #adb9c2;
+	}
+*/
+
+.nf-sel-arw
+	{
+	position:absolute;
+	top:0;
+	right:8px;
+	bottom:0;
+	line-height:50px;
+	height:50px;
+	font-size:24px;
+	}
+
+.nf-sel-lst
+	{
+	position:absolute;
+	float:left;
+	display:none;
+	top:50px;
+	left:0px;
+	width:100%;
+	min-width:240px;
+	max-height:306px;
+	overflow-y:auto;
+	overflow-x:hidden;
+	background-color:#fff;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.5);
+	border:#ccc solid 1px;
+	text-align:left;
+	z-index:1000;
+	}
+
+.nf-sel-opt
+	{
+	position:relative;
+	display:inline-block;
+	width:100%;
+	padding:0 10px;
+	line-height:40px;
+	border:none;
+	background-color:transparent;
+	text-align:left;
+	z-index:1000;
+	}
+
+.nf-sel-lbl
+	{
+	background-color:#e5b330;	
+	}
+
+.nf-sel-opt:hover, .nf-sel-opt:focus
+	{
+	background-color:#51a9cf;
+	color:#fff;
+	cursor:pointer;
+	}
+
+
+.nf-sel-wid
+	{
+	width:250px;	
+	}
+
+.nf-sel-wid .nf-sel-cur
+	{
+    min-width: 200px;
+    width: 200px;
+	}
+	
+.nf-sel-wid .nf-sel-lst 
+	{
+    min-width: 250px;
+    width: 250px;
+	}
+
+.nf-sel-slm
+	{
+	width:100px;	
+	}
+
+.nf-sel-slm .nf-sel-cur
+	{
+    min-width: 50px;
+    width: 50px;
+	}
+
+.nf-sel-slm .nf-sel-list 
+	{
+    min-width: 100px;
+    width: 100px;
+	}
+
+
+
+/* Nice File Input */
+
+.nf-fle
+	{
+	position:relative;
+	float:left;
+	display:block;
+	width:100%;
+	min-height:40px;
+	height:auto;
+	margin:0;
+	z-index:1;	
+	}
+
+.nf-fle-inp
+	{
+	position:absolute;
+	top:0px;
+	left:0;
+	right:0;
+	bottom:0px;
+	float:left;
+	display:block;
+	width:100%;
+	height:40px;
+	opacity:0;
+	filter:alpha(opacity=0);
+	z-index:10;
+	}
+
+.nf-fle-ttl
+	{
+	position:absolute;
+	top:0px;
+	left:0;
+	right:80px;
+	bottom:0px;
+	height:40px;
+	width:100%;
+	float:left;
+	display:block;
+	border-right:none;
+	line-height:40px;
+	
+	margin-right:0;
+	padding:0 5px;
+	border:none;
+	background-color:#e7e7e7;
+	color:#545454;
+	z-index:1;
+	}
+
+.nf-fle-brs
+	{
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	width:80px;
+	padding:0;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	margin:0;
+	background-color:#535961;
+	color:#fff;
+	text-transform:uppercase;
+	z-index:2;
+	}
+
+
+
+.nf-fle:hover, .nf-fle-ttl:hover, .nf-fle-brs:hover
+	{
+	cursor:pointer;
+	}
+
+.nf-fle-drp
+	{
+	position:relative;
+	float:left;
+	display:block;
+	width:100%;
+	height:150px;
+	line-height:100px;
+	margin:50px 0 10px 0;
+	padding:50px 10px 10px 10px;
+	text-align:center;
+	border:#ccc solid 1px;
+	color:#ccc;
+	background:transparent url('../imgs/dropzone.png') no-repeat center center;
+	background-position:50% 20px;
+	}
+
+
+.nf-fle-pro
+	{
+	position:relative;
+	float:left;
+	display:none;
+	width:100%;
+	height:22px;
+	border:#ccc solid 1px;
+	margin:50px 0 10px 0;
+	padding:0;
+	z-index:1;
+	}
+
+.nf-fle-bar
+	{
+	position:relative;
+	float:left;
+	display:block;
+	height:22px;
+	width:0px;
+	margin:0;
+	padding:0;
+	background: transparent url('../imgs/progressbar.gif') repeat center left !important;
+	filter: none;
+	text-align:center;
+	z-index:2;
+	}
+
+

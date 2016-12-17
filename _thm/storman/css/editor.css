@@ -1,0 +1,79 @@
+/* CSS Document */
+
+
+/****************************************************
+ ****************************************************
+ *
+ *	Background Colours
+ *
+ */
+
+.bg-clear					{background-color:transparent}
+
+/* Colour 1 */
+.bg-1, .bg-1-hover:hover 	{background-color:#ffffff;color:#000000}
+/* Colour 2 */
+.bg-2, .bg-2-hover:hover 	{background-color:#CFEAF5;color:#000000}
+/* Colour 3 */
+.bg-3, .bg-3-hover:hover 	{background-color:#1C91B6;color:#000000}
+/* Colour 4 */
+.bg-4, .bg-4-hover:hover 	{background-color:#065E6D;color:#ffffff}
+/* Colour 5 */
+.bg-5, .bg-5-hover:hover 	{background-color:#04242C;color:#ffffff}
+/* Colour 6 */
+.bg-6, .bg-6-hover:hover 	{background-color:#000000;color:#ffffff}
+
+
+
+/****************************************************
+ ****************************************************
+ *
+ *	Text Colours
+ *
+ */
+
+/* Colour 1 */
+.txt-1, .txt-1-hover:hover {color:#ffffff}
+/* Colour 2 */
+.txt-2, .txt-2-hover:hover {color:#CFEAF5}
+/* Colour 3 */
+.txt-3, .txt-3-hover:hover {color:#1C91B6}
+/* Colour 4 */
+.txt-4, .txt-4-hover:hover {color:#065E6D}
+/* Colour 5 */
+.txt-5, .txt-5-hover:hover {color:#04242C}
+/* Colour 6 */
+.txt-6, .txt-6-hover:hover {color:#000000} 
+
+
+
+
+/****************************************************
+ ****************************************************
+ *
+ *	Border Styles and Colours
+ *
+ */
+
+.bdr-none {border:none}
+
+.bdr-t-s-1		{border-top-style:solid;border-top-width:1px}
+.bdr-b-s-1		{border-bottom-style:solid;border-bottom-width:1px}
+.bdr-l-s-1		{border-left-style:solid;border-left-width:1px}
+.bdr-r-s-1		{border-right-style:solid;border-right-width:1px}
+.bdr-a-s-1		{border-style:solid;border-width:1px}
+
+
+/* Colour 1 */
+.bdr-1, .bdr-1-hover:hover {border-color:#ffffff}
+/* Colour 2 */
+.bdr-2, .bdr-2-hover:hover {border-color:#CFEAF5}
+/* Colour 3 */
+.bdr-3, .bdr-3-hover:hover {border-color:#1C91B6}
+/* Colour 4 */
+.bdr-4, .bdr-4-hover:hover {border-color:#065E6D}
+/* Colour 5 */
+.bdr-5, .bdr-5-hover:hover {border-color:#04242C}
+/* Colour 6 */
+.bdr-6, .bdr-6-hover:hover {border-color:#000000} 
+

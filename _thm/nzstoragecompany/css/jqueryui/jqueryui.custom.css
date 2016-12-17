@@ -1,0 +1,673 @@
+/* Globals */
+
+.ui-widget
+	{
+	font-family: "Lato",​"Helvetica Neue",​Helvetica,​Arial,​sans-serif;
+	font-weight:normal;
+	}
+
+.ui-widget-header .ui-icon 
+	{
+	background-image:url("images/ui-icons_0d6a93_256x240.png");
+	}
+
+.ui-widget-overlay
+	{
+	background:transparent url('../imgs/loading.png') repeat top left;
+	opacity:0.7;
+	filter:alpha('opacity=70%')
+	}
+
+.ui-front
+	{
+	z-index:5020;	
+	}
+
+.ui-menu .ui-state-focus
+	{
+	margin:0;	
+	}
+
+/* Autocomplete */
+
+.ui-autocomplete
+	{
+	background-color:#fff;
+	background-image:none;
+	color:#000;	
+	max-height:310px;
+	min-width:298px;
+	padding:0;
+	overflow-x:hidden;
+	overflow-y:auto;
+	list-style:none;
+	}
+
+.ui-autocomplete .ui-menu-item
+	{
+	line-height:40px;
+	font-size:1em;
+	padding:0 8px;	
+	}
+
+.ui-autocomplete .ui-state-focus
+	{
+	background-color:#065E6D;
+	color:#fff;
+	background-image:none;
+	font-weight:normal;
+	border:none;
+	line-height:
+	} 
+
+.ui-autocomplete .ui-menu-item:hover
+	{
+	background-color:#CFEAF5;	
+	}
+	
+
+.ui-helper-hidden-accessible
+	{
+	display:none;	
+	}
+
+
+/* Datepicker */
+
+#ui-datepicker-div
+	{
+	width:226px;
+	margin:10px 0 15px 0;
+	padding:0;
+	color:#000;
+	background-color:#fff;
+	
+	border-radius:0;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	font-weight:normal;
+	
+	}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default
+	{
+	font-weight:normal;	
+	}
+
+
+.ui-datepicker-header
+	{
+	position:relative;
+	float:left;
+	display:block;
+	width:216px;
+	margin:0;
+	padding:5px;
+	border:none;
+	border-radius:0;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	background-color:#fff;
+	border-bottom:#ebebeb solid 1px;
+	color:#0d6a93;
+	background-image:none;
+	font-weight:bold;
+	}
+
+.ui-datepicker-calendar
+	{
+	background-color:#f8f8f8;	
+	}
+
+.ui-datepicker-next, .ui-datepicker-prev
+	{
+	postion:relative;
+	float:left;
+	display:block;
+	width:30px;
+	height:30px;
+	background-position:center center;	
+	}
+
+.ui-widget-header .ui-state-hover
+	{
+	background-image:none;
+	background-color:transparent;
+	border:none;	
+	}
+
+.ui-state-hover
+	{
+	cursor:pointer;	
+	}
+
+.ui-datepicker-next .ui-icon, .ui-datepicker-prev .ui-icon
+	{	
+	margin:7px;	
+	}
+
+.ui-state-hover .ui-icon
+	{
+	background-image:url("images/ui-icons_c0e5f7_256x240.png");
+	}
+
+.ui-datepicker-next
+	{
+	float:right;	
+	}
+
+
+.ui-datepicker-title
+	{
+	position:relative;
+	float:left;
+	display:block;
+	width:146px;
+	padding:0 5px;
+	line-height:30px;
+	text-align:center;
+	table-layout:fixed;
+	}
+
+
+.ui-datepicker-calendar
+	{
+	position:relative;
+	display:inline-block;
+	width:226px;
+	margin:0;
+	padding:7px;	
+	}
+
+.ui-datepicker-calendar tbody tr td
+	{
+	width:26px;
+	height:26px;
+	margin:0;
+	padding:0;
+	color:#3c3c3b;
+	}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default
+	{
+	background-image:none;
+	background-color:#fff;	
+	color:#3c3c3b;
+	}
+
+.ui-datepicker-calendar tbody tr td a
+	{
+	display:inline-block;
+	width:26px;
+	height:26px;
+	line-height:28px;
+	border:#ccc solid 1px;
+	background-color:#fff;
+	color:#3c3c3b;
+	text-decoration:none;
+	text-align:center;
+	margin:0;
+	padding:0;
+	}
+
+.ui-datepicker-calendar tbody tr td.ui-datepicker-today a
+	{
+	background-color:#f8f3dd;
+	border-color:#f8f3dd;
+	}
+
+.ui-datepicker-calendar tbody tr td.ui-datepicker-current-day a
+	{
+	background-color:#0d6a93;
+	border-color:#0d6a93;
+	color:#fff;
+	}
+
+.ui-datepicker-calendar tbody tr td a.ui-state-hover
+	{
+	background-color:#c0e5f7;
+	border-color:#c0e5f7;
+	color:#000;
+	}
+
+/* Datepickert Time Slider */
+
+.ui-timepicker-div
+	{
+	position:relative;
+	display:inline-block;
+	width:212px;
+	margin:2px;
+	}
+
+.ui_tpicker_time_label, .ui_tpicker_hour_label, .ui_tpicker_minute_label
+	{
+	position:relative;
+	float:left;
+	display:block;
+	width:60px;
+	line-height:30px;
+	margin:0 0 5px 0;
+	}
+
+.ui_tpicker_time, .ui_tpicker_hour, .ui_tpicker_minute
+	{
+	position:relative;
+	float:left;
+	display:block;
+	width:130px;
+	height:15px;
+	line-height:30px;
+	padding:15px 0 0 0;
+	margin:0 0 5px 0;
+	}
+
+.ui_tpicker_hour_slider, .ui_tpicker_minute_slider
+	{
+	width:140px;
+	}
+
+.ui_tpicker_time
+	{
+	padding:0;
+	height:30px;	
+	}
+
+.ui-slider-handle
+	{
+	position:absolute;
+	top:0px;
+	width:20px;
+	height:30px;
+	border:#ccc solid 1px;	
+	}
+
+.ui-datepicker-buttonpane
+	{
+	position:relative;
+	float:left;
+	display:block;
+	width:212px;
+	margin:10px 0 0 0;
+	padding:0;	
+	}
+
+.ui-datepicker-buttonpane .ui-state-default
+	{
+	position:relative;
+	float:left;
+	display:block;
+	width:106px;
+	line-height:24px;
+	padding:0;
+	margin:0;
+	background-color:#3c3c3b;
+	color:#fff;
+	border:none;
+	border-radius:0;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	}
+
+
+
+/* Dialog */
+
+.ui-dialog
+	{
+	overflow:visible;	
+	}
+
+.myDialog, .myDialogFeature, .myDialogHelper
+	{
+	padding:0;
+	margin:0;
+	border:none;
+	box-shadow:0 0 6px 0 #000;
+	border-radius:0px;
+	-webkit-border-radius:0px;
+	-moz-border-radius:0px;
+	font-family: "Lato",​"Helvetica Neue",​Helvetica,​Arial,​sans-serif !important;
+	font-weight:normal;
+	}
+
+
+.myDialog, .myDialog .ui-dialog-titlebar, .myDialogFeature, .myDialogFeature .ui-dialog-titlebar, .myDialogHelper, .myDialogHelper .ui-dialog-titlebar
+	{
+	border-radius:0;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;	
+	font-family: "Lato",​"Helvetica Neue",​Helvetica,​Arial,​sans-serif !important;
+	font-weight:normal;
+	}
+
+.fullscreenDialog
+	{
+	width:100%;
+	height:100%;	
+	}
+
+.myDialogFeature .ui-dialog-titlebar
+	{
+	background-color:#e6b42f;
+	color:#000;
+	padding:0;
+	margin:0;
+	}
+
+.ui-dialog .ui-dialog-titlebar
+	{
+	margin:0;
+	padding:0;
+	}
+
+.ui-dialog .ui-dialog-content
+	{
+	background-color:#fff;	
+	}
+
+.ui-dialog .ui-dialog-title
+	{
+	margin:0;
+	padding:0 15px;	
+	}
+
+.ui-dialog-titlebar
+	{
+	background-image:none;
+	background-color:#f8f8f8;
+	color:#1c91b6;
+	border:none;
+	border-bottom:#ccc solid 1px;
+	margin:0;
+	padding:0;
+	line-height:50px;
+	}
+
+.ui-widget button.ui-dialog-titlebar-close
+	{
+	background-color:transparent;
+	color:#545454;	
+	display: inline-block;
+	border:none;
+	font-family:Icons;
+	line-height:50px;
+	height:50px;
+	margin:0;
+	padding:0;
+	top:0;
+	}
+
+.ui-widget button.ui-dialog-titlebar-close:hover
+	{
+	color:#ff8000
+	}
+
+.ui-dialog-titlebar-close:before
+	{
+	content: "\f00d";	
+	}
+
+.ui-widget-header button.ui-state-default
+	{
+	background-color:#f8f8f8;
+	border:none;	
+	}
+
+.ui-dialog .ui-dialog-content
+	{
+	padding:15px;
+	margin:0;
+	}
+
+.myDialogOverflowing #searchDialog
+	{
+	overflow:visible;	
+	}
+
+.ui-dialog-content p
+	{
+	padding:5px;
+	margin:0;
+	font-weight:normal !important;	
+	font-family: "Lato",​"Helvetica Neue",​Helvetica,​Arial,​sans-serif !important;
+	}
+
+.myDialogFeature  .ui-dialog-content p
+	{
+	line-height:30px;
+	}
+
+.ui-dialog-content .popupTextarea
+	{
+	width:310px;
+	padding:5px;	
+	margin:10px 0 5px 0;
+	min-height:110px;
+	max-height:110px;
+	max-width:310px;
+	min-width:310px;
+	border:none;
+	}
+
+.ui-state-default .ui-icon
+	{
+	background-image: url("images/ui-icons_ffffff_256x240.png");	
+	}
+
+
+.ui-dialog-buttonpane
+	{
+	margin:	0;
+	padding:0;
+	}
+
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset
+	{
+	position:relative;
+	float:right;
+	display:block;
+	width:100%;
+	margin:0;
+	padding:0;
+	border:none;
+	line-height:40px;	
+	}
+
+.ui-dialog .ui-dialog-buttonpane
+	{
+	height:40px;
+	line-height:40px;
+	margin:0;
+	padding:0;	
+	}
+
+
+.ui-dialog .ui-dialog-buttonpane button
+	{
+	position:relative;
+	float:right;
+	display:block;
+	width:50%;
+	margin:0;
+	padding:0;
+	border:none;
+	background-image:none;
+	background-color:#f8f8f8;
+	color:#1c91b6;
+	line-height:50px;
+	height:50px;
+	text-align:center;
+	border-radius:0px;
+	-webkit-border-radius:0px;
+	-moz-border-radius:0px;
+	}
+
+
+.ui-dialog .ui-dialog-buttonpane button:hover
+	{
+	background-color:#1c91b6;
+	color:#fff;
+	}
+
+
+
+.custom-combobox
+	{
+	width:298px;
+	height:30px;
+	border-radius:0;
+	margin:0 0 4px;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border:#ccc solid 1px;
+	background-color:#fff;
+	font-weight:normal;
+	z-index:5;
+	overflow:hidden;
+	}
+	
+.custom-combobox-input
+	{
+	border-radius:0;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	margin-left:-1px;
+	width:250px;
+	height:22px;
+	border:none;
+	font-weight:normal;
+	z-index:1;
+	}
+
+a.custom-combobox-toggle span
+	{
+	display:none;	
+	}
+
+.custom-combobox-toggle span.ui-button-text
+	{
+	position:absolute;
+	top:10px;
+	right:10px;
+	width:0; 
+	height:0;
+	padding:0;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 8px solid #adb9c2;
+	}
+
+.custom-combobox-input
+	{
+	border-right:none;	
+	}
+
+
+.custom-combobox a.ui-state-hover
+	{
+	border:none;
+	}
+
+
+
+
+/* Context Menu */
+
+/* Optionally define a fixed width for menus */
+.ui-menu {
+	width: 220px;
+	z-index:5000;
+}
+/* Allow to use <kbd> elements inside the title to define shortcut hints. */
+.ui-menu kbd {
+	padding-left: 1em;
+	float: right;
+}
+
+/* Define a custom icon */
+.ui-icon.custom-icon-firefox {
+	background-image: url(application_firefox.gif);
+	background-position: 0 0;
+}
+
+
+.ui-widget-content
+	{
+	color:#545454;	
+	}
+
+.ui-widget-content .ui-state-focus
+	{
+	background-image:none;
+	background-color:#e6b42f;
+	font-weight:normal;
+	color:#000;
+	border:none;
+	}
+
+
+/* Arrow */
+
+
+.ui-widget > .arrow,
+.ui-widget > .arrow:after {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  /* The following are set in WordPress (wp-admin/css/revisions.css) - reset them to initial values */
+  overflow:visible;
+  margin:0;
+  padding:0;
+  z-index:auto;
+  background-color:transparent;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  bottom:auto;
+  left:auto;
+  right:auto;
+  top:auto;
+  -webkit-transform:none;
+  -ms-transform:none;
+  transform:none;
+}
+.ui-widget > .arrow {
+  border-width: 11px;
+}
+.ui-widget > .arrow:after {
+  content: "";
+  border-width: 10px;
+}
+.ui-widget > .arrow {
+  top: -11px;
+  left: 50%;
+  margin-left: -11px;
+  border-top-width: 0;
+  border-bottom-color: #999;
+  border-bottom-color: rgba(0, 0, 0, .25);
+}
+.ui-widget > .arrow:after {
+  top: 1px;
+  margin-left: -10px;
+  content: " ";
+  border-top-width: 0;
+  border-bottom-color: #fff;
+}
+
+.ui-widget > .arrow {
+	left: 25px;
+}
+
+
+.ui-dialog-buttonset button
+	{
+	box-shadow:none;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	-o-box-shadow:none;	
+	}

@@ -1,0 +1,274 @@
+/****************************************************
+ ****************************************************
+ *
+ *	StorMan Software Pty Ltd
+ *	Paperless Move-In Default Theme - Storage
+ *
+ */
+
+ #header {
+background-color:#a0ce4e;
+ }
+ 
+pre
+	{
+	border-radius:0;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	overflow-x:hidden;	
+	}
+
+.log-data, .group-hdn, .hdn
+	{
+	display:none	
+	}
+
+/****************************************************
+ ****************************************************
+ *
+ *	Text Formatting
+ *
+ */
+
+a, a:hover
+	{
+	text-decoration:none;	
+	}
+
+.txt-xs	{font-size:0.85em}
+.txt-sm	{font-size:0.95em}
+.txt-md	{font-size:1.1em}
+.txt-lg	{font-size:1.35em}
+.txt-xl	{font-size:1.7em}
+.txt-hg	{font-size:2em}
+.txt-mg	{font-size:3em}
+
+.txt-uc	{text-transform:uppercase}
+
+.txt-bl	{font-weight:bold}
+
+.alg-lt	{text-align:left}
+.alg-rt	{text-align:right}
+.alg-cr	{text-align:center}
+
+
+
+
+/****************************************************
+ ****************************************************
+ *
+ *	Background Colours
+ *
+ */
+
+.bg-clear					{background-color:transparent}
+
+/* Colour 1 */
+.bg-1, .bg-1-hover:hover 	{background-color:#ffffff;color:#000000}
+/* Colour 2 */
+.bg-2, .bg-2-hover:hover 	{background-color:#D0DBE6;color:#000000}
+/* Colour 3 */
+.bg-3, .bg-3-hover:hover 	{background-color:#2C3E50;color:#000000}
+/* Colour 4 */
+.bg-4, .bg-4-hover:hover 	{background-color:#44607B;color:#ffffff}
+/* Colour 5 */
+.bg-5, .bg-5-hover:hover 	{background-color:#2C3E50;color:#ffffff}
+/* Colour 6 */
+.bg-6, .bg-6-hover:hover 	{background-color:#000000;color:#ffffff}
+/* Colour 7 (Orange) */
+.bg-7, .bg-7-hover:hover 	{background-color:#ff8000;color:#ffffff}
+/* Colour 8 (Yellow) */
+.bg-8, .bg-8-hover:hover 	{background-color:#e6b42f;color:#000000}
+
+
+
+/* System Globals */
+.bg-blue, .bg-blue-hover:hover {background-color:#0080ff;color:#fff}
+.bg-lgt-blue, .bg-lgt-blue-hover:hover {background-color:#80bfff;color:#fff}
+.bg-drk-blue, .bg-drk-blue-hover:hover {background-color:#0060ff;color:#fff}
+.bg-vdrk-blue, .bg-vdrk-blue-hover:hover {background-color:#0d2045;color:#fff}
+.bg-blue-grey, .bg-blue-grey-hover:hover {background-color:#2b3643;color:#fff}
+.bg-grey-blue, .bg-grey-blue-hover:hover {background-color:#414a56;color:#fff}
+
+.bg-pink, .bg-pink-hover:hover {background-color:#c83e6a;color:#fff}
+.bg-ple-red, .bg-ple-red-hover:hover {background-color:#c23a3a;color:#fff}
+.bg-red, .bg-red-hover:hover {background-color:#ce1d2a;color:#fff}
+
+.bg-yellow, .bg-yellow-hover:hover {background-color:#dbb728;color:#000}
+.bg-can-yellow, .bg-can-yellow-hover:hover {background-color:#e6b42f;color:#000}
+.bg-orange, .bg-orange-hover:hover {background-color:#ff8000}
+.bg-tan, .bg-tan-hover:hover {background-color:#ecd7a0;color:#000}
+
+.bg-green, .bg-green-hover:hover {background-color:#8ec90f;color:#fff}
+.bg-drk-green, .bg-drk-green-hover:hover {background-color:#42975e;color:#fff}
+.bg-brg-green, .bg-brg-green-hover:hover {background-color:#56d31f;color:#fff}
+
+.bg-black, .bg-black-hover:hover {background-color:#000;color:#fff}
+.bg-drk-grey, .bg-drk-grey-hover:hover {background-color:#545454;color:#fff}
+.bg-lgt-grey, .bg-lgt-grey-hover:hover {background-color:#ebebeb;color:#000}
+.bg-mid-grey, .bg-mid-grey-hover:hover {background-color:#cccccc;color:#000}
+.bg-grey, .bg-grey-hover:hover {background-color:#8d8d8d;color:#fff}
+
+.bg-white, .bg-white-hover:hover, .bg-white:hover {background-color:#ffffff;color:#000}
+.bg-ivory, .bg-ivory-hover:hover, .bg-ivory:hover {background-color:#d6cec8;color:#000}
+.bg-off-white, .bg-off-white-hover:hover, .bg-off-white:hover {background-color:#f1f1f1;color:#000}
+
+
+/****************************************************
+ ****************************************************
+ *
+ *	Text Colours
+ *
+ */
+
+/* Colour 1 */
+.txt-1, .txt-1-hover:hover {color:#ffffff}
+/* Colour 2 */
+.txt-2, .txt-2-hover:hover {color:#D0DBE6}
+/* Colour 3 */
+.txt-3, .txt-3-hover:hover {color:#2C3E50}
+/* Colour 4 */
+.txt-4, .txt-4-hover:hover {color:#44607B}
+/* Colour 5 */
+.txt-5, .txt-5-hover:hover {color:#2C3E50}
+/* Colour 6 */
+.txt-6, .txt-6-hover:hover {color:#000000} 
+/* Colour 7 (Orange) */
+.txt-7, .txt-7-hover:hover {color:#ff8000} 
+/* Colour 8 (Yellow) */
+.txt-8, .txt-8-hover:hover {color:#e6b42f} 
+ 
+
+/* System Globals */
+.txt-blue, .txt-blue-hover:hover {color:#0080ff}
+.txt-lgt-blue, .txt-lgt-blue-hover:hover {color:#80bfff}
+.txt-drk-blue, .txt-drk-blue-hover:hover {color:#0060ff}
+.txt-vdrk-blue, .txt-vdrk-blue-hover:hover {color:#0d2045}
+.txt-blue-grey, .txt-blue-grey-hover:hover {color:#2b3643}
+.txt-grey-blue, .txt-grey-blue-hover:hover {color:#414a56}
+
+.txt-pink, .txt-pink-hover:hover {color:#c83e6a}
+.txt-ple-red, .txt-ple-red-hover:hover {color:#c23a3a}
+.txt-red, .txt-red-hover:hover {color:#ce1d2a}
+
+.txt-yellow, .txt-yellow-hover:hover {color:#dbb728}
+.txt-can-yellow, .txt-can-yellow-hover:hover {color:#e6b42f}
+.txt-orange, .txt-orange-hover:hover {color:#ff8000}
+.txt-tan, .txt-tan-hover:hover {color:#ecd7a0}
+
+.txt-green, .txt-green-hover:hover {color:#72c52e}
+.txt-drk-green, .txt-drk-green-hover:hover {color:#42975e}
+.txt-brg-green, .txt-brg-green-hover:hover {color:#56d31f}
+
+.txt-black, .txt-black-hover:hover {color:#000}
+.txt-drk-grey, .txt-drk-grey-hover:hover {color:#545454}
+.txt-lgt-grey, .txt-lgt-grey-hover:hover {color:#ebebeb}
+.txt-mid-grey, .txt-mid-grey-hover:hover {color:#cccccc}
+.txt-grey, .txt-grey-hover:hover {color:#8d8d8d}
+
+.txt-white, .txt-white-hover:hover {color:#ffffff}
+.txt-ivory, .txt-ivory-hover:hover {color:#d6cec8}
+.txt-off-white, .txt-off-white-hover:hover {color:#f1f1f1}
+
+
+/****************************************************
+ ****************************************************
+ *
+ *	Border Styles and Colours
+ *
+ */
+
+.bdr-none {border:none}
+
+.bdr-t-s-1		{border-top-style:solid;border-top-width:1px}
+.bdr-b-s-1		{border-bottom-style:solid;border-bottom-width:1px}
+.bdr-l-s-1		{border-left-style:solid;border-left-width:1px}
+.bdr-r-s-1		{border-right-style:solid;border-right-width:1px}
+.bdr-a-s-1		{border-style:solid;border-width:1px}
+
+
+/* Colour 1 */
+.bdr-1, .bdr-1-hover:hover {border-color:#ffffff}
+/* Colour 2 */
+.bdr-2, .bdr-2-hover:hover {border-color:#D0DBE6}
+/* Colour 3 */
+.bdr-3, .bdr-3-hover:hover {border-color:#CCC}
+/* Colour 4 */
+.bdr-4, .bdr-4-hover:hover {border-color:#44607B}
+/* Colour 5 */
+.bdr-5, .bdr-5-hover:hover {border-color:#2C3E50}
+/* Colour 6 */
+.bdr-6, .bdr-6-hover:hover {border-color:#000000} 
+/* Colour 7 (Orange) */
+.bdr-7, .bdr-7-hover:hover {border-color:#ff8000} 
+/* Colour 8 (Yellow) */
+.bdr-8, .bdr-8-hover:hover {border-color:#e6b42f} 
+
+
+
+/* System Globals */
+.bdr-blue 		{border-color:#0080ff}
+.bdr-lgt-blue 	{border-color:#80bfff}
+.bdr-drk-blue 	{border-color:#0060ff}
+.bdr-vdrk-blue	{border-color:#0d2045}
+.bdr-blue-grey 	{border-color:#2b3643}
+.bdr-grey-blue 	{border-color:#414a56}
+
+.bdr-pink 		{border-color:#c83e6a}
+.bdr-ple-red 	{border-color:#c23a3a}
+.bdr-red 		{border-color:#ce1d2a}
+
+.bdr-yellow 	{border-color:#dbb728}
+.bdr-can-yellow {border-color:#e6b42f}
+.bdr-orange 	{border-color:#ff8000}
+.bdr-tan 		{border-color:#ecd7a0}
+
+.bdr-green 		{border-color:#72c52e}
+.bdr-drk-green 	{border-color:#42975e}
+.bdr-brg-green 	{border-color:#56d31f}
+
+.bdr-black 		{border-color:#000}
+.bdr-drk-grey 	{border-color:#545454}
+.bdr-lgt-grey 	{border-color:#ebebeb}
+.bdr-mid-grey 	{border-color:#cccccc}
+.bdr-grey 		{border-color:#8d8d8d}
+
+.bdr-white 		{border-color:#ffffff}
+.bdr-ivory 		{border-color:#d6cec8}
+.bdr-off-white 	{border-color:#f1f1f1}
+
+
+
+
+/****************************************************
+ ****************************************************
+ *
+ *	Box Shadows
+ *
+ */
+
+.box-shdw-black, .box-shdw-black-hover:hover
+	{
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);	
+	}
+
+.box-shdw-grey, .box-shdw-grey-hover:hover
+	{
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(84,84,84,0.5);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(84,84,84,0.5);
+	box-shadow: 0px 0px 5px 0px rgba(84,84,84,0.5);	
+	}
+
+.box-shdw-blue, .box-shdw-blue-hover:hover
+	{
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,128,255,0.5);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,128,255,0.5);
+	box-shadow: 0px 0px 5px 0px rgba(0,128,255,0.5);	
+	}
+
+
+
+
+
